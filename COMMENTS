@@ -1,0 +1,30 @@
+# Program execution steps:
+
+In order to run this program, clone the repo, change directory into project and run following at command line provided that 
+Python interpreter can be found in the OS' search path:
+```
+python slcsp.py
+```
+If Python interpreter is not in the path then provide absolute path to it, which normally is found under /usr/bin directory
+on a unix system.
+
+
+
+
+This program has been tested in Ubuntu 20.04 running in WSL on Windows 10 platform. Specifics are as follows (with commands to
+verify against in parentheses at command prompt):
+
+# Dependancies of tested enviornment
+
+- OS platform (```ver```):
+	Microsoft Windows 10 [Version 10.0.19044.1526]
+
+- WSL (```wsl --status```):
+
+	Default Distribution: Ubuntu-20.04
+	Default Version: 1
+
+	Kernel version: 5.10.60.1
+
+- Python env (```python --version```): 
+	version 2.7.18
