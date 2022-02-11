@@ -10,7 +10,7 @@ The repository contains all required helper files to successfully run it.
 In order to run this program, clone the repo, change directory into project and run following at command line provided that 
 Python interpreter can be found in the OS' search path:
 
-# python slcsp.py
+python slcsp.py
 
 If Python interpreter is not in the path then provide absolute path to it, which normally is found under /usr/bin directory
 on a unix system.
@@ -93,6 +93,8 @@ zipcode,rate
 20047,
 47452,
 31551,290.6
+
+
 
 
 
