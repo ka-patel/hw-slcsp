@@ -166,7 +166,7 @@ for index in range(1, len(origZipCodes)):
 #-##
 for index in range(len(origZipCodes)):
     # we started out with blank string list for pricing and updated with float value if SLCSP rate was available
-    if type (origRates[index]) == 'float':
+    if type (origRates[index]) is float:
         print('{},{:.2f}'.format(origZipCodes[index], origRates[index])) # limit output to at most two decimals
     else:
         print('{},{}'.format(origZipCodes[index], origRates[index]))
