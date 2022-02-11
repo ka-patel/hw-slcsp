@@ -9,9 +9,9 @@ The repository contains all required helper files to successfully run it.
 
 In order to run this program, clone the repo, change directory into project and run following at command line provided that 
 Python interpreter can be found in the OS' search path:
-
+```
 python slcsp.py
-
+```
 If Python interpreter is not in the path then provide absolute path to it, which normally is found under /usr/bin directory
 on a unix system.
 
@@ -23,17 +23,17 @@ verify against in parentheses at command prompt):
 
 # Dependancies of tested enviornment
 
-- OS platform (ver):
+- OS platform (```ver```):
 	Microsoft Windows 10 [Version 10.0.19044.1526]
 
-- WSL (wsl --status):
+- WSL (```wsl --status```):
 
 	Default Distribution: Ubuntu-20.04
 	Default Version: 1
 
 	Kernel version: 5.10.60.1
 
-- Python env (python --version): 
+- Python env (```python --version```): 
 	version 2.7.18
 
 
@@ -41,6 +41,7 @@ verify against in parentheses at command prompt):
 
 Upon reaching proper setup, the execution of the program will be display following output:
 
+```
 zipcode,rate
 64148,245.2 
 67118,212.35
@@ -93,6 +94,7 @@ zipcode,rate
 20047,
 47452,
 31551,290.6
+```
 
 
 
@@ -101,7 +103,9 @@ zipcode,rate
 
 
 
-#### Original Problem Statement (from https://homework.adhoc.team/slcsp/):
+
+# Original Problem Statement 
+(from https://homework.adhoc.team/slcsp/):
 
 # SLCSP
 
